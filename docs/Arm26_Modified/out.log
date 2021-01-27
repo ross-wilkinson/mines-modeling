@@ -1,0 +1,202 @@
+Updating Model file from 20303 to latest format...
+Loaded model arm26 from file /Users/rosswilkinson/Google Drive/projects/mines-modeling/docs/Arm26_Modified/arm26.osim
+Couldn't find file 'ground_ribs.vtp'.
+Couldn't find file 'ground_spine.vtp'.
+Couldn't find file 'ground_skull.vtp'.
+Couldn't find file 'ground_jaw.vtp'.
+Couldn't find file 'ground_r_clavicle.vtp'.
+Couldn't find file 'ground_r_scapula.vtp'.
+Couldn't find file 'arm_r_humerus.vtp'.
+Couldn't find file 'arm_r_ulna.vtp'.
+Couldn't find file 'arm_r_radius.vtp'.
+Couldn't find file 'arm_r_lunate.vtp'.
+Couldn't find file 'arm_r_scaphoid.vtp'.
+Couldn't find file 'arm_r_pisiform.vtp'.
+Couldn't find file 'arm_r_triquetrum.vtp'.
+Couldn't find file 'arm_r_capitate.vtp'.
+Couldn't find file 'arm_r_trapezium.vtp'.
+Couldn't find file 'arm_r_trapezoid.vtp'.
+Couldn't find file 'arm_r_hamate.vtp'.
+Couldn't find file 'arm_r_1mc.vtp'.
+Couldn't find file 'arm_r_2mc.vtp'.
+Couldn't find file 'arm_r_3mc.vtp'.
+Couldn't find file 'arm_r_4mc.vtp'.
+Couldn't find file 'arm_r_5mc.vtp'.
+Couldn't find file 'arm_r_thumbprox.vtp'.
+Couldn't find file 'arm_r_thumbdist.vtp'.
+Couldn't find file 'arm_r_2proxph.vtp'.
+Couldn't find file 'arm_r_2midph.vtp'.
+Couldn't find file 'arm_r_2distph.vtp'.
+Couldn't find file 'arm_r_3proxph.vtp'.
+Couldn't find file 'arm_r_3midph.vtp'.
+Couldn't find file 'arm_r_3distph.vtp'.
+Couldn't find file 'arm_r_4proxph.vtp'.
+Couldn't find file 'arm_r_4midph.vtp'.
+Couldn't find file 'arm_r_4distph.vtp'.
+Couldn't find file 'arm_r_5proxph.vtp'.
+Couldn't find file 'arm_r_5midph.vtp'.
+Couldn't find file 'arm_r_5distph.vtp'.
+Couldn't find file 'bucket.vtp'.
+ControllerSet 'Controllers' was renamed and is being reset to 'controllerset'.
+ComponentSet 'MiscComponents' was renamed and is being reset to 'componentset'.
+Class name and absolute path name for descendants of 'bodyset' that are of type Component:
+
+          [BodySet]  /bodyset
+             [Body]      /base
+    [FrameGeometry]          /frame_geometry
+             [Mesh]          /base_geom_1
+             [Mesh]          /base_geom_2
+             [Mesh]          /base_geom_3
+             [Mesh]          /base_geom_4
+             [Mesh]          /base_geom_5
+             [Mesh]          /base_geom_6
+    [WrapObjectSet]          /wrapobjectset
+     [WrapCylinder]              /TRIlongglen
+             [Body]      /r_humerus
+    [FrameGeometry]          /frame_geometry
+             [Mesh]          /r_humerus_geom_1
+    [WrapObjectSet]          /wrapobjectset
+    [WrapEllipsoid]              /TRIlonghh
+    [WrapEllipsoid]              /BIClonghh
+     [WrapCylinder]              /TRI
+             [Body]      /r_ulna_radius_hand
+    [FrameGeometry]          /frame_geometry
+             [Mesh]          /r_ulna_radius_hand_geom_1
+             [Mesh]          /r_ulna_radius_hand_geom_2
+             [Mesh]          /r_ulna_radius_hand_geom_3
+             [Mesh]          /r_ulna_radius_hand_geom_4
+             [Mesh]          /r_ulna_radius_hand_geom_5
+             [Mesh]          /r_ulna_radius_hand_geom_6
+             [Mesh]          /r_ulna_radius_hand_geom_7
+             [Mesh]          /r_ulna_radius_hand_geom_8
+             [Mesh]          /r_ulna_radius_hand_geom_9
+             [Mesh]          /r_ulna_radius_hand_geom_10
+             [Mesh]          /r_ulna_radius_hand_geom_11
+             [Mesh]          /r_ulna_radius_hand_geom_12
+             [Mesh]          /r_ulna_radius_hand_geom_13
+             [Mesh]          /r_ulna_radius_hand_geom_14
+             [Mesh]          /r_ulna_radius_hand_geom_15
+             [Mesh]          /r_ulna_radius_hand_geom_16
+             [Mesh]          /r_ulna_radius_hand_geom_17
+             [Mesh]          /r_ulna_radius_hand_geom_18
+             [Mesh]          /r_ulna_radius_hand_geom_19
+             [Mesh]          /r_ulna_radius_hand_geom_20
+             [Mesh]          /r_ulna_radius_hand_geom_21
+             [Mesh]          /r_ulna_radius_hand_geom_22
+             [Mesh]          /r_ulna_radius_hand_geom_23
+             [Mesh]          /r_ulna_radius_hand_geom_24
+             [Mesh]          /r_ulna_radius_hand_geom_25
+             [Mesh]          /r_ulna_radius_hand_geom_26
+             [Mesh]          /r_ulna_radius_hand_geom_27
+             [Mesh]          /r_ulna_radius_hand_geom_28
+             [Mesh]          /r_ulna_radius_hand_geom_29
+    [WrapObjectSet]          /wrapobjectset
+             [Body]      /bucket
+    [FrameGeometry]          /frame_geometry
+             [Mesh]          /bucket_geom_1
+    [WrapObjectSet]          /wrapobjectset
+
+Mesh bucket.vtp not connected to model..ignoring
+Mesh bucket.vtp not connected to model..ignoring
+Mesh bucket.vtp not connected to model..ignoring
+Mesh bucket.vtp not connected to model..ignoring
+Mesh bucket.vtp not connected to model..ignoring
+Mesh /Users/rosswilkinson/Documents/opensim-moco-0.4.0/Resources/Code/Matlab/exampleSquatToStand/Geometry/bucket.vtp not connected to model..ignoring
+Couldn't find file 'bucket.vtp'.
+Couldn't find file 'bucket.vtp'.
+BodySet 'bodyset' has subcomponents with duplicate name 'bucket'.
+The duplicate is being renamed to 'bucket_0'.
+JointSet 'jointset' has subcomponents with duplicate name 'r_handle'.
+The duplicate is being renamed to 'r_handle_0'.
+Updating Model file from 20303 to latest format...
+Loaded model arm26 from file /Users/rosswilkinson/Google Drive/projects/mines-modeling/docs/Arm26_Modified/arm26.osim
+Couldn't find file 'ground_ribs.vtp'.
+Couldn't find file 'ground_spine.vtp'.
+Couldn't find file 'ground_skull.vtp'.
+Couldn't find file 'ground_jaw.vtp'.
+Couldn't find file 'ground_r_clavicle.vtp'.
+Couldn't find file 'ground_r_scapula.vtp'.
+Couldn't find file 'arm_r_humerus.vtp'.
+Couldn't find file 'arm_r_ulna.vtp'.
+Couldn't find file 'arm_r_radius.vtp'.
+Couldn't find file 'arm_r_lunate.vtp'.
+Couldn't find file 'arm_r_scaphoid.vtp'.
+Couldn't find file 'arm_r_pisiform.vtp'.
+Couldn't find file 'arm_r_triquetrum.vtp'.
+Couldn't find file 'arm_r_capitate.vtp'.
+Couldn't find file 'arm_r_trapezium.vtp'.
+Couldn't find file 'arm_r_trapezoid.vtp'.
+Couldn't find file 'arm_r_hamate.vtp'.
+Couldn't find file 'arm_r_1mc.vtp'.
+Couldn't find file 'arm_r_2mc.vtp'.
+Couldn't find file 'arm_r_3mc.vtp'.
+Couldn't find file 'arm_r_4mc.vtp'.
+Couldn't find file 'arm_r_5mc.vtp'.
+Couldn't find file 'arm_r_thumbprox.vtp'.
+Couldn't find file 'arm_r_thumbdist.vtp'.
+Couldn't find file 'arm_r_2proxph.vtp'.
+Couldn't find file 'arm_r_2midph.vtp'.
+Couldn't find file 'arm_r_2distph.vtp'.
+Couldn't find file 'arm_r_3proxph.vtp'.
+Couldn't find file 'arm_r_3midph.vtp'.
+Couldn't find file 'arm_r_3distph.vtp'.
+Couldn't find file 'arm_r_4proxph.vtp'.
+Couldn't find file 'arm_r_4midph.vtp'.
+Couldn't find file 'arm_r_4distph.vtp'.
+Couldn't find file 'arm_r_5proxph.vtp'.
+Couldn't find file 'arm_r_5midph.vtp'.
+Couldn't find file 'arm_r_5distph.vtp'.
+Couldn't find file 'bucket.vtp'.
+ControllerSet 'Controllers' was renamed and is being reset to 'controllerset'.
+ComponentSet 'MiscComponents' was renamed and is being reset to 'componentset'.
+Mesh /Users/rosswilkinson/Documents/opensim-moco-0.4.0/Resources/Code/Matlab/exampleSquatToStand/Geometry/bucket.vtp not connected to model..ignoring
+BodySet 'bodyset' has subcomponents with duplicate name 'bucket'.
+The duplicate is being renamed to 'bucket_0'.
+JointSet 'jointset' has subcomponents with duplicate name 'r_handle'.
+The duplicate is being renamed to 'r_handle_0'.
+Updating Model file from 20303 to latest format...
+Loaded model arm26 from file /Users/rosswilkinson/Google Drive/projects/mines-modeling/docs/Arm26_Modified/arm26.osim
+Couldn't find file 'ground_ribs.vtp'.
+Couldn't find file 'ground_spine.vtp'.
+Couldn't find file 'ground_skull.vtp'.
+Couldn't find file 'ground_jaw.vtp'.
+Couldn't find file 'ground_r_clavicle.vtp'.
+Couldn't find file 'ground_r_scapula.vtp'.
+Couldn't find file 'arm_r_humerus.vtp'.
+Couldn't find file 'arm_r_ulna.vtp'.
+Couldn't find file 'arm_r_radius.vtp'.
+Couldn't find file 'arm_r_lunate.vtp'.
+Couldn't find file 'arm_r_scaphoid.vtp'.
+Couldn't find file 'arm_r_pisiform.vtp'.
+Couldn't find file 'arm_r_triquetrum.vtp'.
+Couldn't find file 'arm_r_capitate.vtp'.
+Couldn't find file 'arm_r_trapezium.vtp'.
+Couldn't find file 'arm_r_trapezoid.vtp'.
+Couldn't find file 'arm_r_hamate.vtp'.
+Couldn't find file 'arm_r_1mc.vtp'.
+Couldn't find file 'arm_r_2mc.vtp'.
+Couldn't find file 'arm_r_3mc.vtp'.
+Couldn't find file 'arm_r_4mc.vtp'.
+Couldn't find file 'arm_r_5mc.vtp'.
+Couldn't find file 'arm_r_thumbprox.vtp'.
+Couldn't find file 'arm_r_thumbdist.vtp'.
+Couldn't find file 'arm_r_2proxph.vtp'.
+Couldn't find file 'arm_r_2midph.vtp'.
+Couldn't find file 'arm_r_2distph.vtp'.
+Couldn't find file 'arm_r_3proxph.vtp'.
+Couldn't find file 'arm_r_3midph.vtp'.
+Couldn't find file 'arm_r_3distph.vtp'.
+Couldn't find file 'arm_r_4proxph.vtp'.
+Couldn't find file 'arm_r_4midph.vtp'.
+Couldn't find file 'arm_r_4distph.vtp'.
+Couldn't find file 'arm_r_5proxph.vtp'.
+Couldn't find file 'arm_r_5midph.vtp'.
+Couldn't find file 'arm_r_5distph.vtp'.
+Couldn't find file 'bucket.vtp'.
+ControllerSet 'Controllers' was renamed and is being reset to 'controllerset'.
+ComponentSet 'MiscComponents' was renamed and is being reset to 'componentset'.
+Mesh /Users/rosswilkinson/Documents/opensim-moco-0.4.0/Resources/Code/Matlab/exampleSquatToStand/Geometry/bucket.vtp not connected to model..ignoring
+BodySet 'bodyset' has subcomponents with duplicate name 'bucket'.
+The duplicate is being renamed to 'bucket_0'.
+JointSet 'jointset' has subcomponents with duplicate name 'r_handle'.
+The duplicate is being renamed to 'r_handle_0'.
