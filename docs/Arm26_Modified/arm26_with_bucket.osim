@@ -1669,6 +1669,10 @@
 					<!--maximum normalized lengthening force-->
 					<Flen>1.8</Flen>
 				</Thelen2003Muscle>
+                <CoordinateActuator name = "r_handle_rot_force">
+                    <coordinate> r_handle_rot </coordinate>
+                    <optimal_force> 1000.0000 </optimal_force>
+                </CoordinateActuator>
 			</objects>
 			<groups />
 		</ForceSet>
